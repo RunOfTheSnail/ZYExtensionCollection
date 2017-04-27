@@ -1,0 +1,25 @@
+//
+//  NSDate+Extension.h
+//  分类
+//
+//  Created by zhangyan on 16/7/26.
+//  Copyright © 2016年 zhangyan. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSDate (Extension)
+/**
+ *  判断某个时间是否为今年
+ */
+- (BOOL)isThisYear;
+/**
+ *  判断某个时间是否为昨天
+ */
+- (BOOL)isYesterday;
+/**
+ *  判断某个时间是否为今天
+ */
+- (BOOL)isToday;
+
+@end
